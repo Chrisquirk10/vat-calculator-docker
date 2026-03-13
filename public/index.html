@@ -24,12 +24,14 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>Chris Quirk</title>
+    <title>Colleague Device & Service Integration VAT Calc</title>
   </head>
   <body>
+    <h1>VAT CALCULATOR</h1>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-     <h3>Hostname</h3>
+    <img src="download.jpg" alt="showmethemoney" width="800" height="500">
+     <h3>Sports management international</h3>
     <p id="host"></p>
     <!--
       This HTML file is a template.
@@ -43,6 +45,7 @@
     -->
     <script>
       let hostname = location.hostname;
+      if (hostname === "localhost") { hostname= "Chris Quirks Website";}
       document.getElementById("host").innerHTML = hostname;
     </script>
   </body>
